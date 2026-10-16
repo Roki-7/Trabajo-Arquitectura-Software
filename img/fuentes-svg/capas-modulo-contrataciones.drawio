@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="capas-modulo-contrataciones" name="Paquetes · Contrataciones y acuerdos">
+    <mxGraphModel dx="1800" dy="1400" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2500" pageHeight="1820" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="CAPAS DEL MÓDULO Y REGLA DE DEPENDENCIA" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#17324D;strokeColor=#17324D;fontColor=#173456;fontFamily=Arial;fontSize=36;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1.3;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="30" width="2380" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="sub" value="Diseño interno · Contrataciones y acuerdos · plataforma de servicios de construcción civil en Ayacucho" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9EDF2;strokeColor=#56616F;fontColor=#232C38;fontFamily=Arial;fontSize=24;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1.3;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="110" width="2380" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="scope" value="MÓDULO DEL BACKEND · contrataciones/&#10;Clean Architecture dentro del monolito modular · organización lógica propuesta, sin framework seleccionado" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#17324D;strokeColor=#17324D;fontColor=#FFFFFF;fontFamily=Arial;fontSize=23;fontStyle=1;align=center;verticalAlign=middle;spacing=12;strokeWidth=1.3;" vertex="1" parent="1">
+          <mxGeometry x="55" y="190" width="2370" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary" value="" style="rounded=0;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#C7D1DC;fontColor=#26364A;fontFamily=Arial;fontSize=17;fontStyle=0;align=center;verticalAlign=top;spacing=12;strokeWidth=1.5;dashed=1;dashPattern=7 5;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="375" width="2425" height="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="pres" value="" style="rounded=0;arcSize=10;whiteSpace=wrap;html=0;fillColor=#D9EDFC;strokeColor=#00649B;fontColor=#123247;fontFamily=Arial;fontSize=17;fontStyle=0;align=center;verticalAlign=top;spacing=12;strokeWidth=1.5;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="boundary">
+          <mxGeometry x="35" y="75" width="480" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="prestab" value="presentacion/" style="rounded=0;arcSize=10;whiteSpace=wrap;html=0;fillColor=#D9EDFC;strokeColor=#00649B;fontColor=#123247;fontFamily=Arial;fontSize=23;fontStyle=1;align=center;verticalAlign=top;spacing=12;strokeWidth=1.5;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="boundary">
+          <mxGeometry x="35" y="25" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="app" value="" style="rounded=0;arcSize=10;whiteSpace=wrap;html=0;fillColor=#DCEFEB;strokeColor=#397B75;fontColor=#183D36;fontFamily=Arial;fontSize=17;fontStyle=0;align=center;verticalAlign=top;spacing=12;strokeWidth=1.5;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="boundary">
+          <mxGeometry x="635" y="75" width="540" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="apptab" value="aplicacion/" style="rounded=0;arcSize=10;whiteSpace=wrap;html=0;fillColor=#DCEFEB;strokeColor=#397B75;fontColor=#183D36;fontFamily=Arial;fontSize=23;fontStyle=1;align=center;verticalAlign=top;spacing=12;strokeWidth=1.5;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="boundary">
+          <mxGeometry x="635" y="25" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="domain" value="" style="rounded=0;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFF0C2;strokeColor=#806000;fontColor=#302500;fontFamily=Arial;fontSize=17;fontStyle=0;align=center;verticalAlign=top;spacing=12;strokeWidth=1.5;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="boundary">
+          <mxGeometry x="1295" y="75" width="480" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="domaintab" value="dominio/" style="rounded=0;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFF0C2;strokeColor=#806000;fontColor=#302500;fontFamily=Arial;fontSize=23;fontStyle=1;align=center;verticalAlign=top;spacing=12;strokeWidth=1.5;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="boundary">
+          <mxGeometry x="1295" y="25" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="infra" value="" style="rounded=0;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E6D9F5;strokeColor=#69458F;fontColor=#38234D;fontFamily=Arial;fontSize=17;fontStyle=0;align=center;verticalAlign=top;spacing=12;strokeWidth=1.5;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="boundary">
+          <mxGeometry x="1915" y="75" width="480" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="infratab" value="infraestructura/" style="rounded=0;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E6D9F5;strokeColor=#69458F;fontColor=#38234D;fontFamily=Arial;fontSize=23;fontStyle=1;align=center;verticalAlign=top;spacing=12;strokeWidth=1.5;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="boundary">
+          <mxGeometry x="1915" y="25" width="325" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="preshead" value="PRESENTACIÓN" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9EDF2;strokeColor=#56616F;fontColor=#232C38;fontFamily=Arial;fontSize=25;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1.3;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="475" width="430" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="presbody" value="«controlador»&#10;ContratacionController&#10;&#10;«rutas HTTP»&#10;RutasContrataciones&#10;&#10;Recibe la petición, toma la identidad&#10;del usuario autenticado, valida el&#10;formato e invoca el caso de uso.&#10;&#10;Convierte el resultado o error&#10;en una respuesta HTTP." style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9EDF2;strokeColor=#56616F;fontColor=#232C38;fontFamily=Arial;fontSize=23;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1.3;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="550" width="430" height="465" as="geometry" />
+        </mxCell>
+        <mxCell id="apphead" value="APLICACIÓN" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9EDF2;strokeColor=#56616F;fontColor=#232C38;fontFamily=Arial;fontSize=25;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1.3;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="685" y="475" width="490" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="appbody" value="«casos de uso»&#10;AceptarPropuesta&#10;ConfirmarContratacion&#10;ProponerCambioDeCondiciones&#10;&#10;«entradas y resultados»&#10;Datos de la operación y sus resultados&#10;&#10;«puertos de salida»&#10;RepositorioContrataciones&#10;UnidadDeTrabajo · AvisosPendientes&#10;ConsultaPropuestas · GestionSolicitudes&#10;&#10;Coordina permisos, reglas y guardado." style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9EDF2;strokeColor=#56616F;fontColor=#232C38;fontFamily=Arial;fontSize=22;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1.3;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="685" y="540" width="490" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="domainhead" value="DOMINIO" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9EDF2;strokeColor=#56616F;fontColor=#232C38;fontFamily=Arial;fontSize=25;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1.3;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="475" width="430" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="domainbody" value="«entidad»&#10;Contratacion&#10;&#10;«objetos de valor»&#10;CondicionesAcordadas&#10;VersionDeAcuerdo&#10;&#10;«estados y reglas»&#10;EstadoContratacion&#10;Confirmación de las condiciones&#10;Aceptación bilateral de cambios&#10;&#10;Sin HTTP, ORM, SDK ni drivers." style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9EDF2;strokeColor=#56616F;fontColor=#232C38;fontFamily=Arial;fontSize=22;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1.3;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="540" width="430" height="535" as="geometry" />
+        </mxCell>
+        <mxCell id="infrahead" value="INFRAESTRUCTURA" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9EDF2;strokeColor=#56616F;fontColor=#232C38;fontFamily=Arial;fontSize=24;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1.3;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="1965" y="475" width="430" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="infrabody" value="«persistencia»&#10;RepositorioContratacionesBD&#10;UnidadDeTrabajoBD&#10;&#10;«avisos pendientes»&#10;RegistroDeAvisosBD&#10;&#10;«adaptadores entre módulos»&#10;ConsultaPropuestasAdapter&#10;GestionSolicitudesAdapter&#10;&#10;Implementan los puertos internos.&#10;Usan APIs públicas de otros módulos." style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9EDF2;strokeColor=#56616F;fontColor=#232C38;fontFamily=Arial;fontSize=22;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1.3;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="1965" y="540" width="430" height="535" as="geometry" />
+        </mxCell>
+        <mxCell id="composition" value="RAÍZ DE COMPOSICIÓN · configuracionDelModulo&#10;Crea los adaptadores, los inyecta en los casos de uso y conecta el controlador con las rutas.&#10;Es el punto de ensamblaje que conoce las implementaciones concretas y las capas que conecta." style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9EDF2;strokeColor=#56616F;fontColor=#232C38;fontFamily=Arial;fontSize=23;fontStyle=1;align=center;verticalAlign=middle;spacing=12;strokeWidth=1.3;" vertex="1" parent="boundary">
+          <mxGeometry x="35" y="905" width="2360" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="compositionlabel" value="«crea, conecta e inyecta»" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9EDF2;strokeColor=#56616F;fontColor=#232C38;fontFamily=Arial;fontSize=21;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1.3;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1220" width="650" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="LEYENDA" style="rounded=0;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#C7D1DC;fontColor=#26364A;fontFamily=Arial;fontSize=24;fontStyle=1;align=center;verticalAlign=top;spacing=12;strokeWidth=1.5;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1470" width="1120" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="dependencya" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#C7D1DC;fontColor=#26364A;fontFamily=Arial;fontSize=17;fontStyle=0;align=center;verticalAlign=middle;spacing=12;strokeWidth=1.3;" vertex="1" parent="1">
+          <mxGeometry x="85" y="1550" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dependencyb" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#C7D1DC;fontColor=#26364A;fontFamily=Arial;fontSize=17;fontStyle=0;align=center;verticalAlign=middle;spacing=12;strokeWidth=1.3;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1550" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dependencylabel" value="Dependencia de código: importa tipos o contratos." style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9EDF2;strokeColor=#56616F;fontColor=#232C38;fontFamily=Arial;fontSize=20;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1.3;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1528" width="890" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="realizationa" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#C7D1DC;fontColor=#26364A;fontFamily=Arial;fontSize=17;fontStyle=0;align=center;verticalAlign=middle;spacing=12;strokeWidth=1.3;" vertex="1" parent="1">
+          <mxGeometry x="85" y="1610" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="realizationb" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#C7D1DC;fontColor=#26364A;fontFamily=Arial;fontSize=17;fontStyle=0;align=center;verticalAlign=middle;spacing=12;strokeWidth=1.3;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1610" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="realizationlabel" value="Realización: implementa una interfaz interna." style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9EDF2;strokeColor=#56616F;fontColor=#232C38;fontFamily=Arial;fontSize=20;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1.3;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1588" width="890" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="wiringa" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#C7D1DC;fontColor=#26364A;fontFamily=Arial;fontSize=17;fontStyle=0;align=center;verticalAlign=middle;spacing=12;strokeWidth=1.3;" vertex="1" parent="1">
+          <mxGeometry x="85" y="1670" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiringb" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#C7D1DC;fontColor=#26364A;fontFamily=Arial;fontSize=17;fontStyle=0;align=center;verticalAlign=middle;spacing=12;strokeWidth=1.3;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1670" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiringlabel" value="Composición: crea y conecta las piezas del módulo." style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9EDF2;strokeColor=#56616F;fontColor=#232C38;fontFamily=Arial;fontSize=20;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1.3;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1648" width="890" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="rules" value="REGLAS QUE DEBE RESPETAR EL CÓDIGO" style="rounded=0;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#C7D1DC;fontColor=#26364A;fontFamily=Arial;fontSize=24;fontStyle=1;align=center;verticalAlign=top;spacing=12;strokeWidth=1.5;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="1470" width="1200" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="rulebody" value="1. El dominio no importa código de las capas externas.&#10;2. La aplicación usa el dominio y declara sus puertos de salida.&#10;3. La infraestructura implementa esos puertos y usa tipos del dominio.&#10;4. La presentación invoca casos de uso; no consulta la base de datos.&#10;5. Solo se accede a otros módulos mediante sus operaciones públicas." style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9EDF2;strokeColor=#56616F;fontColor=#232C38;fontFamily=Arial;fontSize=21;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1.3;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="1530" width="1135" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="foot" value="LECTURA: las flechas expresan dependencias y ensamblaje, no el orden de ejecución. Los nombres representan piezas propuestas, no código implementado. La pasarela de pagos no interviene en la contratación actual." style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9EDF2;strokeColor=#56616F;fontColor=#232C38;fontFamily=Arial;fontSize=20;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1.3;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1750" width="2370" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="«importa»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#263D5B;strokeWidth=2.4;fontFamily=Arial;fontSize=13;fontColor=#263D5B;labelBackgroundColor=#FFFFFF;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=6 4;endSize=14;" edge="1" parent="1" source="pres" target="app">
+          <mxGeometry relative="1" as="geometry" x="0" y="0">
+            <mxPoint x="-1.609375" y="-22.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="«importa»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#263D5B;strokeWidth=2.4;fontFamily=Arial;fontSize=13;fontColor=#263D5B;labelBackgroundColor=#FFFFFF;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=6 4;endSize=14;" edge="1" parent="1" source="app" target="domain">
+          <mxGeometry relative="1" as="geometry" x="0" y="0">
+            <mxPoint x="-1.609375" y="-22.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="«importa»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#263D5B;strokeWidth=2.4;fontFamily=Arial;fontSize=13;fontColor=#263D5B;labelBackgroundColor=#FFFFFF;endArrow=classic;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=6 4;endSize=14;" edge="1" parent="1" source="infra" target="domain">
+          <mxGeometry relative="1" as="geometry" x="0" y="0">
+            <mxPoint x="-11.609375" y="-22.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="«implementa puertos de aplicación»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#69458F;strokeWidth=2.4;fontFamily=Arial;fontSize=13;fontColor=#69458F;labelBackgroundColor=#FFFFFF;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=6 4;endSize=14;" edge="1" parent="1" source="infratab" target="apptab">
+          <mxGeometry relative="1" as="geometry" x="0" y="0">
+            <Array as="points">
+              <mxPoint x="2102.5" y="330" />
+              <mxPoint x="790" y="330" />
+            </Array>
+            <mxPoint x="-87.3828125" y="-12.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#397B75;strokeWidth=2.4;fontFamily=Arial;fontSize=13;fontColor=#397B75;labelBackgroundColor=#FFFFFF;endArrow=classic;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endSize=14;" edge="1" parent="1" source="composition" target="pres">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="1200" />
+              <mxPoint x="300.0" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#397B75;strokeWidth=2.4;fontFamily=Arial;fontSize=13;fontColor=#397B75;labelBackgroundColor=#FFFFFF;endArrow=classic;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endSize=14;" edge="1" parent="1" source="composition" target="app">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="1200" />
+              <mxPoint x="930.0" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#397B75;strokeWidth=2.4;fontFamily=Arial;fontSize=13;fontColor=#397B75;labelBackgroundColor=#FFFFFF;endArrow=classic;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endSize=14;" edge="1" parent="1" source="composition" target="infra">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="1200" />
+              <mxPoint x="2180.0" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#263D5B;strokeWidth=2.4;fontFamily=Arial;fontSize=13;fontColor=#263D5B;labelBackgroundColor=#FFFFFF;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=6 4;endSize=14;" edge="1" parent="1" source="dependencya" target="dependencyb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#69458F;strokeWidth=2.4;fontFamily=Arial;fontSize=13;fontColor=#69458F;labelBackgroundColor=#FFFFFF;endArrow=block;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=6 4;endSize=14;" edge="1" parent="1" source="realizationa" target="realizationb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#397B75;strokeWidth=2.4;fontFamily=Arial;fontSize=13;fontColor=#397B75;labelBackgroundColor=#FFFFFF;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=14;" edge="1" parent="1" source="wiringa" target="wiringb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
